@@ -25,4 +25,4 @@ async def get_sentiment(input_text: InputText):
 
 @app.get("/")
 def read_root():
-    return {"message": "Hello"}
+    return {"message": "Hello Mr.Nandha"}
