@@ -7,6 +7,7 @@ app = FastAPI()
 
 class InputText(BaseModel):
     text: str
+############
 
 
 def sentiment_score(text: str) -> int:
